@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appConfig>
+    <dataCsv>C:\Users\martysem\Documents\Assignments\SAIP_BAP\020 BAP-6092 TT Mobile SAIP for mass product for Consumer\result\01__0fd2ef98-1d76-11ea-beb3-591a464ea57f\postack\TTM956991.csv</dataCsv>
+    <outputFolderPath>C:\Users\martysem\Documents\Assignments\SAIP_BAP\020 BAP-6092 TT Mobile SAIP for mass product for Consumer\result\voucher_example</outputFolderPath>
+    <pdfGeneratorJar>pdf-generator-1.0.1-SNAPSHOT.jar</pdfGeneratorJar>
+    <template>C:\tec_tools\qr_code_generator\tec_voucher_template.json</template>
+</appConfig>

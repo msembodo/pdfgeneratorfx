@@ -1,0 +1,14 @@
+{
+  "apiVersion":1,
+  "template": {
+      "pdf": {"source":"file", "path": "e-voucher-blank.pdf"},
+      "controls": [
+        {"type": "barcode", "x": 110, "y": 30, "width": 70, "height": 9, "barcodeType":"CODE128", "value": {"source": "input", "property":"iccid"}},
+        {"type": "text", "x": 110, "y": 43, "width": 70, "height": 7, "horizontalAlign":"CENTER", "verticalAlign":"CENTER", "font": {"type":"resource", "resourceId": "tahoma", "size": 20}, "value": {"source": "input", "property":"iccid"}},
+        {"type": "qrcode", "x": 154 , "y": 174, "size": 31, "redundancyLevel": "M", "value": {"source": "input", "property":"token"}}
+      ],
+    "fonts": {
+      "tahoma" : { "source": "file", "path": "tahoma.ttf" }
+    }
+  }
+}

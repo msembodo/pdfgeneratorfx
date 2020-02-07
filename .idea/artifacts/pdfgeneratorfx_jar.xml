@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pdfgeneratorfx:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pdfgeneratorfx_jar</output-path>
+    <root id="archive" name="pdfgeneratorfx.jar">
+      <element id="module-output" name="pdfgeneratorfx" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/controlsfx/samples/controlsfx-8.40.15.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
